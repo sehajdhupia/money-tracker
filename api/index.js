@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 
 //app.use(cors({ origin: '*' }));
 app.use(cors({
-    origin: 'money-tracker-khlpfmmvm-sehaj-dhupias-projects.vercel.app'
+    origin: 'https://money-tracker-ruby.vercel.app'
 }));
 
 
