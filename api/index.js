@@ -8,8 +8,8 @@ const mongoose = require("mongoose");
 
 //app.use(cors({ origin: '*' }));
 app.use(cors({
-    origin: 'https://money-tracker-ruby.vercel.app'
-}));
+    origin: 'http://localhost:3000' // Replace with your frontend URL
+  }));
 
 
 app.use(express.json());
